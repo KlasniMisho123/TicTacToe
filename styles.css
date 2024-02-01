@@ -1,0 +1,115 @@
+img {
+    height: 30%;
+    width: 30%;
+}
+
+h1 {
+    font-family: 'Roboto Serif', serif;
+}
+
+.background-div {
+    background-color: #AAD9BB;
+}
+.container {
+    height: 89vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.game-title{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.top-section {
+    margin-top: 50px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    height: 50%;
+    width: 25%;
+    border: 0px none white;
+    gap: 2px;
+}
+
+.ttt-square {
+    background-color: #80BCBD;
+    color: #80BCBD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headers-div {
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.flex-header {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-family: serif;
+}
+
+.score-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.result-div {
+    display: flex;
+    
+}
+
+.score-result-div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.btn-no-strap {
+    width: 150px;
+    padding: 15px;
+    border-radius: 32px;
+    background-color: #80BCBD;
+    text-align: center;
+    border: 3px solid white;
+    box-sizing: border-box;
+    opacity: 100%;
+}
+
+.btn-no-strap:hover {
+    opacity: 20%;
+}
+
+.x-class {
+    font-size: 16px;
+    color: gold;
+    background-color: seagreen;
+}
+
+.o-class {
+    font-size: 16px;
+    color: gold;
+    background-color: black;
+}
+
+.player-name:hover {
+    color: yellow;
+    cursor: pointer;
+}
